@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>蓝鲸考试</title>
+    <link href="${STATIC_URL}css/app.css" rel="stylesheet">
+</head>
+<body>
+<script>
+    if ('${RUN_MODE}' === 'DEVELOP') {
+        window.siteUrl = "http://dev.bk-dev.com:8000"
+    } else {
+        window.siteUrl = '${BK_PLAT_HOST}${SITE_URL}'
+    }
+</script>
+<div id="app"></div>
+<script type="text/javascript" src="${STATIC_URL}js/manifest.js"></script>
+<script type="text/javascript" src="${STATIC_URL}js/vendor.js"></script>
+<script type="text/javascript" src="${STATIC_URL}js/app.js"></script>
+</body>
+</html>

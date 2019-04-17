@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome Vue</h1>
+<ul>
+
+    <li>
+        我的名字是
+        <input type="button" onclick="a()">
+    </li>
+
+</ul>
+</body>
+<script>
+    function a() {
+         alert("123")
+ $.ajax({
+        type: "POST",
+        url: "http://127.0.0.1:8000/reg",
+        success: function (data) {
+
+            alert(data)
+        }
+    })
+    }
+
+</script>
+</html>

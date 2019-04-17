@@ -1,0 +1,38 @@
+[
+  {
+    "source_key": "CMDB_HOST",
+    "env_key": "BKAPP_CMDB_HOST",
+    "examples": "http://192.168.165.52:33031",
+    "desc": "进程cmdb_apiserver的IP和端口"
+  },
+  {
+    "source_key": "CMDB_MONGO_DATABASES",
+    "env_key": "BKAPP_CMDB_MONGO_DATABASES",
+    "examples": "cmdb",
+    "desc": "cmdb mongo数据库名"
+  },
+  {
+    "source_key": "CMDB_MONGO_USER",
+    "env_key": "BKAPP_CMDB_MONGO_USER",
+    "examples": "bk_cmdb",
+    "desc": "cmdb mongo数据库用户名"
+  },
+  {
+    "source_key": "CMDB_MONGO_PASS",
+    "env_key": "BKAPP_CMDB_MONGO_PASS",
+    "examples": "123456",
+    "desc": "cmdb mongo数据库密码"
+  },
+  {
+    "source_key": "CMDB_MONGO_HOST",
+    "env_key": "BKAPP_CMDB_MONGO_HOST",
+    "examples": "127.0.0.1",
+    "desc": "cmdb mongo数据库IP"
+  },
+  {
+    "source_key": "CMDB_MONGO_PORT",
+    "env_key": "BKAPP_CMDB_MONGO_PORT",
+    "examples": "27017",
+    "desc": "cmdb mongo数据库端口号"
+  }
+]

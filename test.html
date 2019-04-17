@@ -1,0 +1,14 @@
+<script>
+    var name = 'aaa'
+    var obj = {
+        name: 'bbb', dose: function () {
+            this.name = 'ccc'
+            return function () {
+                return this.name
+            }
+        }
+    }
+    alert(obj.dose().call(this))
+    alert(obj.name)
+
+</script>
